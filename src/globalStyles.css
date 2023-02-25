@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .buttonsCarousel {
+    @apply absolute z-10 shadow-xl bg-red-500 hover:bg-red-300 px-4 py-1 md:px-8 md:py-2 text-smaller md:text-base laptopL:text-xl text-white font-secondary rounded-4xl;
+  }
+  .titleT36L15 {
+    @apply font-bold text-lg md:text-3xl xl:text-4xl top-32 md:top-20 xl:top-32 left-[15%] w-2/3 xl:w-1/3 md:w-60 leading-snug xl:leading-normal;
+  }
+  .titleB {
+    @apply text-white text-base md:text-2xl lg:text-3xl laptopL:text-4xl left-10 md:left-20 laptopL:left-44;
+  }
+  .subtitleCD {
+    @apply text-sm md:text-xl xl:text-2xl top-48 md:top-[40%] xl:top-72 left-[15%] w-60 xl:w-1/3;
+  }
+  .buttonCD {
+    @apply top-[75%] md:top-[70%] xl:top-[80%] md:left-[15%] xl:left-[15%];
+  }
+  .number-grid-recipe-summary {
+    @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+  }
+  .title-grid-recipe-summary {
+    @apply text-sm md:text-base xl:text-xl capitalize font-thin;
+  }
+  .border-grid-recipe-summary {
+    @apply border-r border-r-gray-200 col-center gap-y-2;
+  }
+  .section-title-recipe-summary {
+    @apply text-lg xl:text-2xl font-bold first-letter:uppercase;
+  }
+  .main-nutrients-recipe {
+    @apply font-secondary first-letter:capitalize font-thin;
+  }
+  .main-nutrients-value-recipe {
+    @apply font-bold text-median lg:text-lg;
+  }
+  .main-nutrients-border-recipe {
+    @apply border-r border-r-gray-600 col-center;
+  }
+}
+
+@layer components {
+  .bg-img-header {
+    @apply flex flex-col bg-cover w-screen h-96 md:h-[566px] mt-0;
+  }
+  .bg-text-header {
+    @apply text-gray-100 capitalize font-thin text-3xl md:text-5xl xl:text-7xl pl-10 pt-10 md:pb-10;
+  }
+}
+
+@layer components {
+  .row-center {
+    @apply flex justify-center items-center;
+  }
+  .col-center {
+    @apply flex flex-col justify-center items-center;
+  }
+  .heading-green {
+    @apply text-xl md:text-2xl pl-20 py-6 text-green-500;
+  }
+}
+
+@layer components {
+  .dialog-menu-base {
+    @apply absolute flex flex-col rounded-lg shadow-marked bg-white h-44 xl:h-48 w-52 xl:w-60 pb-4 z-30;
+  }
+  .dialog-menu-arrow {
+    @apply absolute content-[''] w-5 h-5 bg-white translate-y-1/2 rotate-45;
+  }
+  .dialog-menu-side {
+    @apply dialog-menu-base top-[-10px] lg:top-0 left-32 md:left-56 lg:left-60 xl:left-[350px] 2xl:left-[500px] before:dialog-menu-arrow before:top-2 before:left-[-10px] before:shadow-[-3px_3px_10px_-3px_#8181814b];
+  }
+  .dialog-menu-top {
+    @apply dialog-menu-base bottom-5 right-[-8px] before:dialog-menu-arrow before:bottom-0 before:right-[20px] before:lg:right-[30px] before:shadow-[2px_2px_4px_rgba(0,_0,_0,_0.08)];
+  }
+  .dialog-menu-bottom {
+    @apply dialog-menu-base top-16 right-[-9px] md:left-2 before:dialog-menu-arrow before:bottom-44 before:right-[20px] before:shadow-[-2px_-2px_4px_rgba(0,_0,_0,_0.08)];
+  }
+  .toggle-menu-btn {
+    @apply absolute inline-block h-[2px] w-full rounded-[10px] bg-gray-500 ease-toggle duration-300 delay-100;
+  }
+}
+
+@layer components {
+  .grid-cards {
+    @apply grid grid-cols-[repeat(auto-fit,_minmax(190px,_1fr))] scroll-smooth gap-x-6 gap-y-4 md:gap-y-14 py-5 w-[80vw] mx-auto mb-10;
+  }
+  .card {
+    @apply flex flex-col gap-y-2 min-w-[190px] w-full max-w-[250px] bg-transparent mx-auto;
+  }
+  .card-recipe-name {
+    @apply cursor-pointer max-w-[75%] text-sm md:text-base;
+  }
+  .card-img-container {
+    @apply flex justify-start cursor-pointer relative h-44;
+  }
+  .card-recipe-img {
+    @apply w-full h-full rounded-lg pb-1 cursor-pointer;
+  }
+  .card-gradient-bg {
+    @apply flex items-end justify-between absolute bottom-0 left-0 p-3 mx-auto rounded-lg h-[30%] w-full text-white text-smaller lg:text-median bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.2)];
+  }
+  .circle-sm {
+    @apply absolute right-1 lg:right-4 row-center h-9 w-9 p-3 md:p-2 rounded-full shadow-30 hover:shadow-lg;
+  }
+  .circle-lg {
+    @apply row-center h-14 w-14 absolute right-14 rounded-full shadow-30 hover:shadow-lg;
+  }
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  margin-top: 50px;
+  --webkit-font-smoothing: antialiased;
+}
