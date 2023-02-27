@@ -24,7 +24,7 @@ export function ToggleFavorites({ recipeId, menuPosition, circle }: Props) {
           setIsMenuVisible(!isMenuVisible)
         }}
       >
-        {savedIds.some((id) => id === recipeId) ? ( // TODO: review .some()
+        {savedIds.some((id) => id === recipeId) ? (
           <IconCheck
             color="white"
             name="is saved"

@@ -60,13 +60,6 @@ export interface Recipe {
   occasions: string[]
 }
 
-export interface SimilarRecipes {
-  id: number
-  title: string
-  readyInMinutes: number
-  servings: number
-}
-
 export interface FoundRecipesByIngredients {
   id: number
   image: string

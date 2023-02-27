@@ -178,7 +178,7 @@ export function SearchRecipes() {
         className={`${
           isMenuOpen
             ? 'transition-all animate-fadeInDown shadow-xl fixed'
-            : 'hidden'
+            : 'hidden h-0 z-0'
         } bg-white absolute z-[100] top-0 lg:top-24 left-0 pt-28 h-screen w-screen lg:bg-transparent lg:block`}
       >
         <form
