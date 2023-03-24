@@ -1,8 +1,8 @@
 import { BsFillBookmarkFill as IconBookmark } from 'react-icons/bs'
 import { VscCheck as IconCheck } from 'react-icons/vsc'
 
-import useMenuVisible from '../hooks/useMenuVisible'
-import useDataContext from '../hooks/useDataContext'
+import useMenuVisible from '../../hooks/useMenuVisible'
+import useDataContext from '../../hooks/useDataContext'
 import { MenuSelectCategories } from './MenuSelectCategories'
 
 interface Props {

@@ -5,8 +5,8 @@ import {
   FOOD_INTOLERANCES,
   MEAL_TYPES,
   SORT,
-} from '../constants/filters'
-import { Option } from '../types/models'
+} from '../../constants/filters'
+import { Option } from '../../types/models'
 
 const customStyles: StylesConfig<Option> = {
   menuList: (provided) => ({

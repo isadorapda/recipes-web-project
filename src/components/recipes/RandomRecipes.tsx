@@ -1,4 +1,4 @@
-import { useRandomRecipes } from '../hooks/useRandomRecipes'
+import { useRandomRecipes } from '../../hooks/useRandomRecipes'
 import { RecipeCard } from './RecipeCard'
 
 interface RandomRecipesProps {

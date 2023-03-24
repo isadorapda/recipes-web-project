@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react'
 
 import { BsBasket as IconBasket } from 'react-icons/bs'
 
-import useDataContext from '../hooks/useDataContext'
-import useWindowWidth from '../hooks/useWindowWidth'
-import { IngredientsDetails } from '../types/models'
-import { RenderDasktop } from './RenderDasktop'
-import { RenderMobile } from './RenderMobile'
+import useDataContext from '../../hooks/useDataContext'
+import useWindowWidth from '../../hooks/useWindowWidth'
+import { IngredientsDetails } from '../../types/models'
+import { RenderDasktop } from './../RenderDasktop'
+import { RenderMobile } from './../RenderMobile'
 
 interface Props {
   ingredient: IngredientsDetails

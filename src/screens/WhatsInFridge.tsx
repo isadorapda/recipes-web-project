@@ -8,7 +8,7 @@ import { PANTRY_ACTIONABLES } from '../constants/pantryActionables'
 import { FoundRecipesByIngredients } from '../types/models'
 import useDataContext from '../hooks/useDataContext'
 import { EmptyResults } from '../components/EmptyResults'
-import { CardRecipeByIngredients } from '../components/CardRecipeByIngredients'
+import { CardRecipeByIngredients } from '../components/recipes/CardRecipeByIngredients'
 import { Loader } from '../components/Loader'
 import { ErrorModal } from '../components/ErrorModal'
 
@@ -99,7 +99,7 @@ export function WhatsInFridge() {
       )
       params.set('ingredients', ingredientsInput.join(',+'))
       params.set('ignorePantry', 'false')
-      params.set('number', '10')
+      params.set('number', '8')
 
       const response = await fetch(`${url}${params}`)
       const apiResponse = (await response.json()) as FoundRecipesByIngredients[]

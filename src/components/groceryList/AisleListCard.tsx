@@ -4,14 +4,14 @@ import { RiMoreLine as IconPlus } from 'react-icons/ri'
 import { IoAddCircleOutline as IconAdd } from 'react-icons/io5'
 import { MdKeyboardArrowDown as IconArrowDown } from 'react-icons/md'
 
-import useDataContext from '../hooks/useDataContext'
-import useWindowWidth from '../hooks/useWindowWidth'
-import { IngredientsDetails } from '../types/models'
+import useDataContext from '../../hooks/useDataContext'
+import useWindowWidth from '../../hooks/useWindowWidth'
+import { IngredientsDetails } from '../../types/models'
 import { GroceryListSingleItem } from './GroceryListSingleItem'
 import { SetAmountInput } from './SetAmountInput'
-import { RenderMobile } from './RenderMobile'
-import { RenderDasktop } from './RenderDasktop'
-import { generateUserAddedIngredientId } from '../utils/generateUserAddedIngredientId'
+import { RenderMobile } from './../RenderMobile'
+import { RenderDasktop } from './../RenderDasktop'
+import { generateUserAddedIngredientId } from '../../utils/generateUserAddedIngredientId'
 
 interface Props {
   aisle: string

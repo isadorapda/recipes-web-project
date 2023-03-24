@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { NAV_BAR_ROUTES } from '../constants/navBarRoutes'
+import { NAV_BAR_ROUTES } from '../../constants/navBarRoutes'
 
 interface Props {
   setIsNavOpen: (value: boolean) => void

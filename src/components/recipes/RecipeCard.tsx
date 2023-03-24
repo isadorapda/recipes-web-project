@@ -2,9 +2,9 @@ import { useNavigate } from 'react-router-dom'
 
 import { MdOutlineFavorite as IconLike } from 'react-icons/md'
 
-import { Recipe } from '../types/models'
+import { Recipe } from '../../types/models'
 import { ToggleFavorites } from './ToggleFavorites'
-import useLikesCount from '../hooks/useLikesCount'
+import useLikesCount from '../../hooks/useLikesCount'
 
 interface DataProps {
   recipe: Recipe

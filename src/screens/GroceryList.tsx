@@ -7,9 +7,9 @@ import { v4 as uuidv4 } from 'uuid'
 import useDataContext from '../hooks/useDataContext'
 import { IngredientsDetails } from '../types/models'
 import { EmptyComponent } from '../components/EmptyComponent'
-import { AisleListCard } from '../components/AisleListCard'
-import { AddNewListManually } from '../components/AddNewListManually'
-import { NewAisleListCard } from '../components/NewAisleListCard'
+import { AisleListCard } from '../components/groceryList/AisleListCard'
+import { AddNewListManually } from '../components/groceryList/AddNewListManually'
+import { NewAisleListCard } from '../components/groceryList/NewAisleListCard'
 
 export function GroceryList() {
   const { groceryList } = useDataContext()

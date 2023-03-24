@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { IMAGES_CAROUSEL } from '../constants/images'
 import { Carousel } from '../components/Carousel'
 import { ErrorModal } from '../components/ErrorModal'
-import { RandomRecipes } from '../components/RandomRecipes'
+import { RandomRecipes } from '../components/recipes/RandomRecipes'
 
 export function Home() {
   const [error, setError] = useState<Error | null>(null)

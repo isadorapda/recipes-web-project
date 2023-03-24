@@ -4,10 +4,10 @@ import { IoAddCircleOutline as IconAdd } from 'react-icons/io5'
 import { MdKeyboardArrowDown as IconArrowDown } from 'react-icons/md'
 import { RiDeleteBack2Line as IconClear } from 'react-icons/ri'
 
-import { AISLES } from '../constants/aisles'
-import { IngredientsDetails } from '../types/models'
-import { generateUserAddedIngredientId } from '../utils/generateUserAddedIngredientId'
-import { SetAmountInput } from './SetAmountInput'
+import { AISLES } from '../../constants/aisles'
+import { IngredientsDetails } from '../../types/models'
+import { generateUserAddedIngredientId } from '../../utils/generateUserAddedIngredientId'
+import { SetAmountInput } from '../groceryList/SetAmountInput'
 
 interface Props {
   isAccordionOpen: boolean

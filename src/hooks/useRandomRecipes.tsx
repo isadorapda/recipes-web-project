@@ -26,7 +26,7 @@ export function useRandomRecipes(tags: string) {
       try {
         const url = new URL(SEARCH_RECIPE_RANDOM_BASE_URL)
         const params = new URLSearchParams(url.search)
-        params.set('number', '10')
+        params.set('number', '4')
         params.set('apiKey', `${key}`)
         params.set('tags', `${tags}`)
         const response = await fetch(`${url}${params}`)

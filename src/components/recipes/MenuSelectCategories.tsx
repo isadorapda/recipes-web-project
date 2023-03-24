@@ -1,8 +1,8 @@
 import {
   Categories,
   MENU_CATEGORY_OPTIONS,
-} from '../constants/menuCategoriesOptions'
-import useDataContext from '../hooks/useDataContext'
+} from '../../constants/menuCategoriesOptions'
+import useDataContext from '../../hooks/useDataContext'
 
 interface Props {
   setIsMenuVisible: (value: boolean) => void

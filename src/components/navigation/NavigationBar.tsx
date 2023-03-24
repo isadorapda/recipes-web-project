@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import useWindowWidth from '../hooks/useWindowWidth'
+import useWindowWidth from '../../hooks/useWindowWidth'
 import { HamburgerMenu } from './HamburgerMenu'
-import { RenderDasktop } from './RenderDasktop'
-import { RenderMobile } from './RenderMobile'
+import { RenderDasktop } from './../RenderDasktop'
+import { RenderMobile } from './../RenderMobile'
 import { Navigation } from './Navigation'
 
 export function NavigationBar() {

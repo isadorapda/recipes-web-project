@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { FoundRecipesByIngredients } from '../types/models'
+import { FoundRecipesByIngredients } from '../../types/models'
 
 interface Props {
   recipe: FoundRecipesByIngredients

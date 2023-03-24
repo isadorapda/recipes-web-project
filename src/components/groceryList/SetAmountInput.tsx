@@ -1,8 +1,8 @@
 import Select from 'react-select'
 
-import { FRACTIONS } from '../constants/fractions'
-import { MEASURE_UNITS } from '../constants/measureUnitsIngredients'
-import { customStyles } from '../styles/selectStyles'
+import { FRACTIONS } from '../../constants/fractions'
+import { MEASURE_UNITS } from '../../constants/measureUnitsIngredients'
+import { customStyles } from '../../styles/selectStyles'
 
 interface Props {
   setAmount: (amount: number) => void

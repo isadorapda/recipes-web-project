@@ -6,11 +6,11 @@ import { BsSearch as IconSearch } from 'react-icons/bs'
 import { AnimateScroll } from '../components/AnimateScroll'
 import { EmptyResults } from '../components/EmptyResults'
 import { ErrorModal } from '../components/ErrorModal'
-import { FiltersSelect } from '../components/FiltersSelect'
+import { FiltersSelect } from '../components/recipes/FiltersSelect'
 import { FloatingButtonTray } from '../components/FloatingButtonTray'
-import { FoundRecipes } from '../components/FoundRecipes'
+import { FoundRecipes } from '../components/recipes/FoundRecipes'
 import { Loader } from '../components/Loader'
-import { RandomRecipes } from '../components/RandomRecipes'
+import { RandomRecipes } from '../components/recipes/RandomRecipes'
 import { RenderMobile } from '../components/RenderMobile'
 import { SEARCH_RECIPE_BASE_URL } from '../constants/endpoints'
 import useDataContext from '../hooks/useDataContext'
@@ -89,7 +89,7 @@ export function SearchRecipes() {
       }
       params.set('addRecipeInformation', 'true')
       params.set('addRecipeNutrition', 'true')
-      params.set('number', '10')
+      params.set('number', '8')
       if (sort) {
         params.set('sort', sort.value)
         params.set('sortDirection', sort.direction!)
