@@ -40,7 +40,7 @@ export function GroceryList() {
 
   return (
     <div>
-      <div className="bg-img-header bg-[url(/assets/ingredients.jpg)] bg-center h-60 md:h-[400px] justify-start md:justify-end">
+      <div className="bg-img-header bg-[url(../assets/ingredients.webp)] bg-center h-60 md:h-[400px] justify-start md:justify-end">
         <h1 className="bg-text-header">grocery List</h1>
       </div>
       <button

@@ -1,4 +1,4 @@
-import { ApiResponseGlobalSearch } from '../types/models'
+import { ApiResponseGlobalSearch } from '../../types/models'
 import { RecipeCard } from './RecipeCard'
 
 interface DataProps {

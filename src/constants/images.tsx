@@ -1,20 +1,20 @@
 import { Target, Variant } from '../components/Carousel'
 import { ICONS_FILTERS } from './iconsSlide2'
 
-import Basil from '/assets/basil_leaf.svg'
-import Plate1 from '/assets/plate1.svg'
-import Plate2 from '/assets/plate2.svg'
-import Slide2Food from '/assets/slide2_food.svg'
-import Slide3Cooking from '/assets/slide3_cooking_photo.svg'
-import Slide5Cooking from '/assets/slide5_cooking_photo.svg'
-import Slide4Shopping from '/assets/slide4_shopping.svg'
-import Blueberries from '/assets/blueberries.svg'
-import OrangeLeaves from '/assets/orange_leaves.svg'
+import Basil from '../assets/basil_leaf.svg'
+import Plate1 from '../assets/plate1.svg'
+import Plate2 from '../assets/plate2.svg'
+import Slide2Food from '../assets/slide2_food.svg'
+import Slide3Cooking from '../assets/slide3_cooking_photo.svg'
+import Slide5Cooking from '../assets/slide5_cooking_photo.svg'
+import Slide4Shopping from '../assets/slide4_shopping.svg'
+import Blueberries from '../assets/blueberries.svg'
+import OrangeLeaves from '../assets/orange_leaves.svg'
 
 export const IMAGES_CAROUSEL: Target[] = [
   {
     url: (
-      <div className="bg-[url(/assets/slide1.png)] bg-center bg-img-header mt-0 justify-start">
+      <div className="bg-[url(/assets/slide1.webp)] bg-center bg-img-header mt-0 justify-start">
         <img
           src={`${Plate2}`}
           alt=""
@@ -30,7 +30,7 @@ export const IMAGES_CAROUSEL: Target[] = [
   },
   {
     url: (
-      <div className="bg-[url(/assets/bgRed.png)] bg-center bg-img-header mt-0  justify-start  ">
+      <div className="bg-redGradient bg-center bg-img-header mt-0  justify-start  ">
         <img
           src={`${Slide2Food}`}
           alt=""
@@ -83,7 +83,7 @@ export const IMAGES_CAROUSEL: Target[] = [
   },
   {
     url: (
-      <div className="bg-[url(/assets/bgGreen.png)] bg-center bg-img-header mt-0  justify-start  ">
+      <div className="bg-greenGradient bg-center bg-img-header mt-0  justify-start  ">
         <img
           src={`${Plate2}`}
           alt=""
@@ -115,7 +115,7 @@ export const IMAGES_CAROUSEL: Target[] = [
   },
   {
     url: (
-      <div className="bg-[url(/assets/bgRed.png)] bg-center bg-img-header mt-0  justify-start ">
+      <div className="bg-redGradient bg-center bg-img-header mt-0  justify-start ">
         <img
           src={`${Blueberries}`}
           alt=""
@@ -147,7 +147,7 @@ export const IMAGES_CAROUSEL: Target[] = [
   },
   {
     url: (
-      <div className="bg-[url(/assets/bgGreen.png)] bg-center bg-img-header mt-0 justify-start ">
+      <div className="bg-greenGradient bg-center bg-img-header mt-0 justify-start ">
         <img
           src={`${Slide5Cooking}`}
           alt=""

@@ -23,6 +23,12 @@ module.exports = {
         },
         glass: 'rgba(255, 255, 255, 0.6)',
       },
+      backgroundImage: {
+        redGradient:
+          'linear-gradient(107.26deg, rgba(176, 67, 66, 0.497) 49.77%, rgba(176, 67, 66, 0) 99.49%)',
+        greenGradient:
+          'linear-gradient(98.85deg, rgba(176, 195, 181, 0.1925) 9.92%, rgba(176, 195, 181, 0.55) 51.48%)',
+      },
 
       gridTemplateColumns: {
         auto: 'repeat(auto-fit, minmax(300px,1fr))',
@@ -134,7 +140,7 @@ module.exports = {
         },
         fadeInDown: {
           from: {
-            transform: 'translateY(-1em)',
+            transform: 'translateY(-100%)',
             opacity: 0,
           },
           to: {

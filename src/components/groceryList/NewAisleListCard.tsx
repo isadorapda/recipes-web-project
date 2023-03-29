@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RiDeleteBin5Line } from 'react-icons/ri'
 
-import { IngredientsDetails } from '../types/models'
+import { IngredientsDetails } from '../../types/models'
 import { GroceryListSingleItem } from './GroceryListSingleItem'
 
 interface Props {
