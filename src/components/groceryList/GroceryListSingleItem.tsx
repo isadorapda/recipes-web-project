@@ -35,7 +35,7 @@ export function GroceryListSingleItem({
     <div
       className={`${
         isAccordionOpen
-          ? 'h-full animate-fadeInDown'
+          ? 'h-auto animate-fadeInDown'
           : 'h-0 hidden lg:grid lg:grid-cols-[2fr,_1fr]'
       } ${
         edit ? 'bg-[rgba(97,97,97,0.2)] italic my-1' : ''
@@ -79,7 +79,7 @@ export function GroceryListSingleItem({
             onClick={() => setCheck(!check)}
             className={`${
               check ? 'italic relative' : ''
-            }  first-letter:uppercase w-fit`}
+            }  first-letter:uppercase `}
           >
             {' '}
             {item.name}

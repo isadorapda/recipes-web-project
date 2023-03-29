@@ -15,7 +15,7 @@ export function SavedRecipes() {
 
   return (
     <div className="flex flex-col overflow-x-hidden">
-      <div className="bg-[url(/assets/favorites.jpg)] bg-img-header h-60 md:h-[400px] justify-end">
+      <div className="bg-[url(/assets/favorites.webp)] bg-img-header h-60 md:h-[400px] justify-end">
         <h1 className="bg-text-header">saved recipes</h1>
       </div>
 
