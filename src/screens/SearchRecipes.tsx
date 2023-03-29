@@ -140,7 +140,7 @@ export function SearchRecipes() {
         {<AnimateScroll>{<FloatingButtonTray />}</AnimateScroll>}
       </RenderMobile>
 
-      <section className="bg-[url(../assets/foodBg.webp)] bg-img-header h-60 md:h-[400px] lg:h-[500px] bg-top justify-center items-center">
+      <section className="bg-[url(/assets/foodBg.webp)] bg-img-header h-60 md:h-[400px] lg:h-[500px] bg-top justify-center items-center">
         <h1 className="absolute top-16 md:top-24 xl:top-28 left-5 md:left-16 text-white text-[15px] md:text-xl lg:text-2xl w-2/3 md:w-[40%] md:tracking-wide xl:pr-20">
           Looking for specific recipes, diet types, cuisines, dish types?
         </h1>

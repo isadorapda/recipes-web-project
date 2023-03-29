@@ -157,7 +157,7 @@ export function WhatsInFridge() {
     </div>
   ) : (
     <div>
-      <div className="bg-[url(../assets/tableIngredients.webp)] bg-top bg-img-header h-96 md:h-[400px] lg:h-[500px] justify-start md:relative">
+      <div className="bg-[url(/assets/tableIngredients.webp)] bg-top bg-img-header h-96 md:h-[400px] lg:h-[500px] justify-start md:relative">
         <h1 className="text-green-500 md:text-2xl lg:text-4xl font-bold mx-auto md:mx-0 md:pl-20 pt-8 md:pt-16 first-letter:uppercase">
           Cook with what you have
         </h1>
