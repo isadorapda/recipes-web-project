@@ -16,7 +16,6 @@ import { SEARCH_RECIPE_BASE_URL } from '../constants/endpoints'
 import useDataContext from '../hooks/useDataContext'
 import useWindowWidth from '../hooks/useWindowWidth'
 import { ApiResponseGlobalSearch, Option } from '../types/models'
-import Background from '../assets/foodBg.webp'
 
 const key = import.meta.env.VITE_API_KEY
 const DATA_INITIAL_STATE = {
@@ -178,9 +177,9 @@ export function SearchRecipes() {
       <section
         className={`${
           isMenuOpen
-            ? 'transition-all animate-fadeInDown shadow-xl fixed'
+            ? 'transition-all z-[100] animate-fadeInDown shadow-xl fixed'
             : 'hidden h-0 z-0'
-        } bg-white absolute z-[100] top-0 lg:top-24 left-0 pt-28 h-screen w-screen lg:bg-transparent lg:block`}
+        } bg-white absolute z-0 top-0 lg:top-24 left-0 pt-28 h-screen w-screen lg:bg-transparent lg:block`}
       >
         <form
           onSubmit={onSubmitHandler}

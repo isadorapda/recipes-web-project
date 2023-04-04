@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Categories,
   MENU_CATEGORY_OPTIONS,

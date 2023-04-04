@@ -64,7 +64,7 @@
 
 @layer components {
   .dialog-menu-base {
-    @apply absolute flex flex-col rounded-lg shadow-marked bg-white h-44 xl:h-48 w-52 xl:w-60 pb-4 z-30;
+    @apply absolute flex flex-col rounded-lg shadow-marked bg-white h-44 xl:h-48 w-52 xl:w-60 pb-4 z-50;
   }
   .dialog-menu-arrow {
     @apply absolute content-[''] w-5 h-5 bg-white translate-y-1/2 rotate-45;

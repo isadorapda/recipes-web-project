@@ -1,6 +1,6 @@
+import React from 'react'
 import { Target, Variant } from '../components/Carousel'
 import { ICONS_FILTERS } from './iconsSlide2'
-
 import Basil from '../assets/basil_leaf.svg'
 import Plate1 from '../assets/plate1.svg'
 import Plate2 from '../assets/plate2.svg'
